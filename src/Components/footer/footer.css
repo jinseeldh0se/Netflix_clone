@@ -1,0 +1,38 @@
+.footers{
+
+    width:100%;
+    max-height: 200px;
+    display: flex;
+    
+
+}
+
+.Div{
+
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    
+
+}
+
+.h6{
+
+    position: absolute;
+    padding-left: 140px;
+   
+
+}
+
+.Div ul li{
+
+    list-style: none;
+    gap: 12px;
+
+}
+
+.Div ul{
+
+    padding-left: 100px;
+
+}

@@ -1,0 +1,98 @@
+.banner {
+
+    position: relative;
+    height: 450px;
+    color: white;
+
+
+
+}
+
+.Content {
+    position: absolute;
+    padding-top: 140px;
+    height: 190px;
+    padding-left: 15px;
+    top: 1px;
+    z-index: 2;
+
+}
+
+.title {
+
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+
+}
+
+.button {
+
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(51, 51, 51, 0.5);
+    cursor: pointer;
+    margin-left: 1rem;
+
+}
+
+.button:hover {
+    color: black;
+    background-color: white;
+}
+
+.Description {
+
+    width: 45rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 0.9rem;
+    height: 80px;
+    max-width: 360px;
+
+
+}
+
+.fade_bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30rem;
+    background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.61), #111);
+    z-index: 1;
+}
+
+
+.banner-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    /* Ensure the image is on top */
+    height: 450px;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ReactPlayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    /* Ensure the video is behind the image */
+}
+
